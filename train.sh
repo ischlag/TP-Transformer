@@ -1,0 +1,21 @@
+python3 main.py \
+--n_steps=5000000  \
+-lr=1e-4 \
+--beta1=0.9 \
+--beta2=0.995 \
+--batch_size=128  \
+--grad_accum_steps=1 \
+--max_abs_grad_norm=0.1 \
+--dropout=0.0 \
+-opt=Adam  \
+--model_name=tp-transformer \
+--module_name=numbers__place_value \
+--n_layers=6 \
+--hidden=512 \
+--filter=2048 \
+--log_every=50 \
+--eval_every=5000 \
+--max_strikes=100000 \
+--n_heads=8 \
+--log_folder=logs \
+--full_loader

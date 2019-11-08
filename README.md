@@ -5,7 +5,7 @@ This repository contains the source code for the paper [*Enhancing the Transform
 We prepared a [Google Colab notebook](https://colab.research.google.com/drive/1Zi9FOwcO_i-4FDQQGgMMfcZxZISpJNMT) for anyone to experiment first hand with the TP-Transformer.
 
 ## Train from Scratch
-## Requirements
+### Requirements
 ```
 pip3 install --upgrade gdown
 pip3 install --upgrade torch==1.1.0

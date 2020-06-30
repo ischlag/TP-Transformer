@@ -26,6 +26,9 @@ python3 main.py --help
 ```
 The script supports multi-gpu training, gradient accumulation, and two different data pipelines. We also provide the scripts that we used in order to preprocess and merge the dm_math modules into one big module called *all_modules*.
 
+### Notes on reproducing our results in the paper
+Please use the command in the ```train.sh``` file to reproduce the results. All our experiments were done with the full_loader argument. The dynamic loader was added at a later stage and since then we found that it is not working as expected. It is considered experimental. Use the full loader at all times. 
+
 ## Citation
 ```
 @article{schlag2019enhancing,
